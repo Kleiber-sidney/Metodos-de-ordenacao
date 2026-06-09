@@ -19,11 +19,7 @@ O programa conta com um menu interativo que permite:
 
 Quando a opção de gerar o gráfico é selecionada, o terminal exibe uma comparação proporcional parecida com esta:
 
-======= GRAFICO DE TEMPO DE ORDENACAO ======== 
- Bubble Sort    | ██████████████████████████████████████████████████ 1.2340 s
- Selection Sort | ██████████████████████████████                    0.7420 s
- Insertion Sort | █████████████████                                 0.4120 s
- Quick Sort     | █                                                 0.0030 s
+"[Gráfico de desempenho](grafico.png)
 
 ## Tecnologias Utilizadas
 
