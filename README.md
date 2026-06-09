@@ -1,6 +1,6 @@
 ## Comparador de Algoritmos de Ordenação em C++
 
-Este projeto é uma aplicação de console desenvolvida em C++ que visa analisar, medir e comparar visualmente o desempenho de diferentes algoritmos de ordenação (Sorting Algorithms). O programa mede o tempo de execução e a quantidade de trocas de cada método, gerando um gráfico de barras diretamente no terminal para comparação.
+Este projeto é uma aplicação desenvolvida em C++ que visa analisar, medir e comparar visualmente o desempenho de diferentes algoritmos de ordenação (Sorting Algorithms). O programa mede o tempo de execução e a quantidade de trocas de cada método, gerando um gráfico de barras diretamente no terminal para comparação.
 
 ## Funcionalidades
 
