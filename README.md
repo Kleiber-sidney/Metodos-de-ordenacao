@@ -19,7 +19,7 @@ O programa conta com um menu interativo que permite:
 
 Quando a opção de gerar o gráfico é selecionada, o terminal exibe uma comparação proporcional parecida com esta:
 
-[Gráfico de desempenho](grafico.png)
+<img width="1110" height="623" alt="grafico" src="https://github.com/user-attachments/assets/ce31ee3b-c89a-498c-b2dd-76f2290644aa" />
 
 ## Tecnologias Utilizadas
 
