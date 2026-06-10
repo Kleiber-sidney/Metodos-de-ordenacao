@@ -14,6 +14,7 @@ O programa conta com um menu interativo que permite:
     Quick Sort
 4. Contador de tempo e trocas: Exibe o tempo exato gasto na ordenação (em segundos) e a quantidade total de trocas de posições realizadas.
 5. Gráfico de Tempo: Gera um gráfico de barras comparativo com base nos tempos registrados por cada algoritmo.
+6. Embaralhar vetor: Embaralha o vetor sem a necessidade de criar um novo vetor.
 
 ## Exemplo de Saída do Gráfico
 
