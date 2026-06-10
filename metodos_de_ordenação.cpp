@@ -24,7 +24,8 @@ int imprimeMenu() {
   printf("\n =  7: Ordenar Quick Sort              = ");
   printf("\n =  8: Preencher Vetor Aleatoriamente  = ");
   printf("\n =  9: Gerar Grafico                   = ");
-  printf("\n = 10: Sair                            = ");
+  printf("\n = 10: Embaralhar Vetor                = ");
+  printf("\n = 11: Sair                            = ");
   printf("\n Informe a opcao desejada: ");
   int resposta;
   scanf("%i", &resposta);
@@ -36,6 +37,17 @@ void vetorAleatorio(int Tamanho){
     vetor[i] = (rand() %100000);                            
   printf("\n %i numeros gerados",Tamanho); 
   Qtd = Tamanho;                                         
+}
+
+void EmbaralharVetor() {
+  for (int i = Qtd - 1; i > 0; i--) {
+    int j = rand() % (i + 1);
+    int aux = vetor[i];
+    vetor[i] = vetor[j];
+    vetor[j] = aux;
+  }
+  printf("\n Vetor embaralhado");
+  getch();
 }
 
 void bubbleSort() {
@@ -223,10 +235,11 @@ int main() {
       scanf("%i", &Tamanho);
       vetorAleatorio(Tamanho);
     }
-    else if (resposta == 9) {
+    else if (resposta == 9) 
       gerarGrafico();
-    } 
-  } while (resposta < 10);
+    else if (resposta == 10) 
+      EmbaralharVetor();
+  } while (resposta < 11);
   
   return 0;
 }
