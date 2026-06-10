@@ -18,7 +18,9 @@ O programa conta com um menu interativo que permite:
 
 ## Exemplo de Saída do Gráfico
 
-Quando a opção de gerar o gráfico é selecionada, o terminal exibe uma comparação proporcional parecida com esta:
+Quando a opção de gerar o gráfico é selecionada, o terminal exibe uma comparação parecida com esta:
+
+<img width="1110" height="586" alt="grafico" src="https://github.com/user-attachments/assets/10226b05-bd46-4c63-a7ac-a1d07502ae98" />
 
 ## Tecnologias Utilizadas
 
